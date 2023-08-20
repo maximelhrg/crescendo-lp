@@ -1,0 +1,134 @@
+body {
+    color: #fff;
+    text-align: center;
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Geomanist, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    cursor: default;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-family: Geomanist, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    cursor: default;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: Geomanist, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+u1 {
+    color: #272727;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    background-color: #6027ff;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    transition: all .5s;
+    box-shadow: 0 0 20px 15px rgba(255, 200, 34, .1);
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #a8005d;
+    border: 3px #242a46;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 8px rgba(168, 0, 93, .25);
+}
+
+.button:focus {
+    color: #383c50;
+    background-color: #fff;
+}
+
+.header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 100px 5% 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem;
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
