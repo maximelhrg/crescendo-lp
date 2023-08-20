@@ -98,7 +98,7 @@ li {
 }
 
 .logo img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -112,7 +112,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
