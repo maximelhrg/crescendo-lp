@@ -1,22 +1,22 @@
 body {
-    color: #000;
+    color: #1f1f59;
     text-align: center;
     cursor: default;
-    background-color: rgba(0, 0, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    font-family: Geomanist, sans-serif;
+    font-family: 'Geomanist', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
     padding: 0;
     margin: 0;
+    background-color: #f5f5fa;
 }
 
 h1 {
     cursor: default;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 38px;
     padding: 0;
     margin: 0;
@@ -26,7 +26,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0;
-    font-family: Geomanist, sans-serif;
+    font-family: 'Geomanist', Arial, sans-serif;
     font-size: 23px;
     font-weight: 400;
     line-height: 36px;
@@ -38,7 +38,7 @@ p {
     cursor: default;
     margin-top: 0;
     margin-bottom: 5px;
-    font-family: Geomanist, sans-serif;
+    font-family: 'Geomanist', Arial, sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -53,7 +53,7 @@ a {
 }
 
 u1 {
-    color: #272727;
+    color: #2711b8;
     margin-bottom: 0;
     padding: 0;
     margin: 0;
@@ -66,10 +66,11 @@ li {
 }
 
 .button {
-    background-color: #6027ff;
+    background-color: #fff;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Geomanist', Arial, sans-serif;
     padding: 15px 20px;
     transition: all .5s;
     box-shadow: 0 0 20px 15px rgba(255, 200, 34, .1);
@@ -78,14 +79,15 @@ li {
 .button:hover {
     color: #fff;
     background-color: #a8005d;
-    border: 3px #242a46;
+    border: 3px #1f1f59;
     border-radius: 20px;
     box-shadow: 0 0 15px 8px rgba(168, 0, 93, .25);
+    cursor: pointer;
 }
 
 .button:focus {
-    color: #383c50;
-    background-color: #fff;
+    color: #1f1f59;
+    background-color: #f5f5fa;
 }
 
 .header {
@@ -95,11 +97,14 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Geomanist', Arial, sans-serif;
 }
 
 .logo img {
     max-width: 50%;
     height: auto;
+    padding: 1rem;
+    /* margin-right: 1rem; */
 }
 
 nav ul {
@@ -117,8 +122,17 @@ nav a {
 }
 
 .hero {
+    /* background-image: url('assets/background.jpeg'); */
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 3rem;
+    padding: 6rem 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .content {
@@ -126,9 +140,68 @@ nav a {
     text-align: center;
 }
 
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #2711b8;
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9a83;
+    color: #f5f5fa;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Geomanist', Arial, sans-serif;
+}
+
+.signup-button:hover {
+    background-color: #ff9a83;
+}
+
+/* Sign-up section styles */
+.signup {
+    background-color: #f5f5fa;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.signup-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #f5f5fa;
+    background-color: #2711b8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Geomanist', Arial, sans-serif;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
-    color: #fff;
+    background-color: #2711b8;
+    color: #f5f5fa;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('fonts/regular/geomanist-regular-webfont.woff2') format('woff2'),
+         url('fonts/regular/geomanist-regular-webfont.woff') format('woff'),
+         url('fonts/regular/geomanist-regular-webfont.otf') format('otf'),
+         url('fonts/regular/geomanist-regular-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
