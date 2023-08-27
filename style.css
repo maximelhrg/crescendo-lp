@@ -88,7 +88,8 @@ main {
 .about {
     text-align: center;
     padding: 4rem 0;
-    background-color: #F8F8F8;
+    background-color: #333;
+    color: #F8F8F8;
 }
 
 .about-heading {
@@ -106,21 +107,22 @@ main {
 .portfolio {
     text-align: center;
     padding: 4rem 0;
-    background-color: #F8F8F8;
+    background-color: #333;
+    color: #F8F8F8;
 }
 
 /* Testimonials section styles */
 #testimonials {
     text-align: center;
     padding: 4rem 0;
-    background-color: #F8F8F8;
+    background-color: #333;
+    color: #F8F8F8;
 }
 
 .testimonial {
     font-style: italic;
     font-size: 1.25rem;
     margin-bottom: 2rem;
-    color: #444;
 }
 
 .face {
@@ -138,7 +140,8 @@ main {
 #contact {
     text-align: center;
     padding: 4rem 0;
-    background-color: #F8F8F8;
+    background-color: #333;
+    color: #F8F8F8;
 }
 
 .contact-heading {
