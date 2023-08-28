@@ -2186,6 +2186,7 @@ html {
     padding: 15px 20px;
     transition: all .5s;
     box-shadow: 0 0 20px 15px rgba(255, 200, 34, .1);
+    font-size: 1000;
   }
   
   .button:hover {
@@ -2484,6 +2485,7 @@ html {
   .testimonial {
     margin-bottom: 22px;
     font-size: 20px;
+    font-family: 'Geomanist', Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: 26px;
@@ -3001,7 +3003,7 @@ html {
     border-radius: 5px;
     font-family: 'Geomanist', Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 1000;
     display: block;
   }
   
@@ -3027,7 +3029,7 @@ html {
   
   .container-9 {
     color: #040b27;
-    border-top: 1px solid #000;
+    /* border-top: 1px solid #000; */
     padding: 100px 10px;
   }
   
@@ -3371,7 +3373,11 @@ html {
   }
   
   .paragraph-5 {
-    color: #040b27;
+    color: #fff;
+    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-style: normal;
+    font-size: medium;
+    padding-top: 8px;
   }
   
   .field-label-4 {
@@ -3404,7 +3410,7 @@ html {
   }
   
   .container-13 {
-    max-width: 90%;
+    max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
@@ -3419,7 +3425,6 @@ html {
     align-content: center;
     align-self: flex-start;
     align-items: center;
-    padding-top: 50px;
     display: flex;
   }
   
@@ -3953,6 +3958,7 @@ html {
       padding-right: 5px;
       font-size: 16px;
       line-height: 150%;
+      font-family: 'Geomanist', Helvetica, sans-serif;
     }
   
     .from {
