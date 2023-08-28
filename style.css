@@ -3362,14 +3362,8 @@ html {
   .text-block-9 {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 24px;
     line-height: normal;
-    font-weight: bolder;
-    color: #bedcff;
-    background-color: rgba(0, 0, 0, .0);
-  }
-  
-  .bold-text-3 {
     font-weight: bolder;
     color: #bedcff;
     background-color: rgba(0, 0, 0, .0);
@@ -3379,11 +3373,11 @@ html {
     color: #fff;
     font-family: 'Geomanist', Helvetica, sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 12px;
     padding-bottom: 24px;
     line-height: normal;
-    font-weight: normal;
+    font-weight: lighter;
   }
   
   .field-label-4 {
