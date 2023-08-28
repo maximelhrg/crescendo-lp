@@ -2181,7 +2181,7 @@ html {
   .button {
     background-color: #fc6c4b;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px 20px;
     transition: all .5s;
@@ -3012,6 +3012,7 @@ html {
     padding: 15px 20px;
     font-weight: 1000;
     display: block;
+    margin-top: 10px;
   }
   
   .button-2:hover {
@@ -3316,23 +3317,12 @@ html {
   }
   
   .accordion-header {
-    background-color: #bedcff;
-    color: #1f1f59;
-    border-radius: 20px;
+    color: #bedcff;
     flex: 1;
     order: 0;
     align-self: flex-start;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transition: all .3s;
-  }
-  
-  .accordion-header:hover {
-    background-color: #fc6c4b;
-    color: #fff;
-    box-shadow: 0 0 5px 1px rgba(96, 39, 255, .3);
   }
   
   .accordion-panel {
@@ -3372,11 +3362,17 @@ html {
   .text-block-9 {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 24px;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: bolder;
+    color: #bedcff;
+    background-color: rgba(0, 0, 0, .0);
   }
   
   .bold-text-3 {
-    font-weight: 500;
+    font-weight: bolder;
+    color: #bedcff;
+    background-color: rgba(0, 0, 0, .0);
   }
   
   .paragraph-5 {
@@ -3387,6 +3383,7 @@ html {
     padding-top: 12px;
     padding-bottom: 24px;
     line-height: normal;
+    font-weight: normal;
   }
   
   .field-label-4 {
@@ -3425,6 +3422,7 @@ html {
     justify-content: center;
     align-items: flex-start;
     display: flex;
+    padding-bottom: 20px;
   }
   
   .div-block-7 {
@@ -4222,7 +4220,7 @@ html {
     }
   
     .accordion-header {
-      justify-content: center;
+      justify-content: left;
       margin-left: 10px;
       margin-right: 10px;
     }
