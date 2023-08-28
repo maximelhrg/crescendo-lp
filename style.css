@@ -279,7 +279,7 @@ html {
     background-color: #bedcff;
     border: 0;
     border-radius: 0;
-    padding: 9px 15px;
+    padding: 15px 15px;
     text-decoration: none;
     display: inline-block;
   }
@@ -2183,10 +2183,10 @@ html {
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 15px 20px;
+    padding: 20px 20px;
     transition: all .5s;
     box-shadow: 0 0 20px 15px rgba(255, 200, 34, .1);
-    font-size: 1000;
+    font-size: 24px;
   }
   
   .button:hover {
@@ -2484,10 +2484,10 @@ html {
   
   .testimonial {
     margin-bottom: 22px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Geomanist', Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 100;
+    font-style: italic;
+    font-weight: lighter;
     line-height: 26px;
   }
   
@@ -2716,6 +2716,7 @@ html {
     margin-bottom: 0;
     padding: 15px 20px;
     transition: background-color .5s;
+    font-size: 20px;
   }
   
   .button-header:hover {
@@ -2800,7 +2801,7 @@ html {
     margin-top: 60px;
     margin-bottom: 60px;
     font-family: 'Geomanist', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 120%;
   }
@@ -2914,7 +2915,7 @@ html {
     margin-top: 20px;
     color: #bedcff;
     font-family: 'Geomanist', Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 600;
   }
   
@@ -2923,8 +2924,9 @@ html {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Geomanist', Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
   }
   
   .submit-button {
@@ -2935,7 +2937,7 @@ html {
     border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 100%;
+    font-size: 20px;
     display: block;
     position: relative;
     left: auto;
@@ -2990,6 +2992,7 @@ html {
     border-radius: 5px;
     margin-top: 20px;
     font-family: 'Geomanist', Helvetica, sans-serif;
+    font-size: 24px;
   }
   
   .container-6 {
@@ -3031,7 +3034,7 @@ html {
   .container-9 {
     color: #040b27;
     /* border-top: 1px solid #000; */
-    padding: 100px 10px;
+    padding: 50px;
   }
   
   .columns {
@@ -3366,7 +3369,7 @@ html {
   .text-block-9 {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 24px;
   }
   
   .bold-text-3 {
@@ -3377,8 +3380,10 @@ html {
     color: #fff;
     font-family: 'Geomanist', Helvetica, sans-serif;
     font-style: normal;
-    font-size: medium;
-    padding-top: 8px;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    line-height: normal;
   }
   
   .field-label-4 {
@@ -3417,7 +3422,6 @@ html {
     justify-content: center;
     align-items: flex-start;
     display: flex;
-    padding-bottom: 10px;
   }
   
   .div-block-7 {
@@ -3429,6 +3433,7 @@ html {
     align-self: flex-start;
     align-items: center;
     display: flex;
+    padding-top: 5px;
   }
   
   .bold-text-4 {
@@ -3440,9 +3445,11 @@ html {
     background-color: #bedcff;
     color: #1f1f59;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     transition: all .5s;
     box-shadow: 0 0 20px 15px rgba(0, 0, 0, .2);
+    font-size: 24px;
+    margin-top: 10px;
   }
 
   .button-3:hover {
@@ -3662,7 +3669,7 @@ html {
     }
   
     .main-subtitle {
-      font-size: 18px;
+      font-size: 28px;
     }
   
     .about-section {
@@ -3837,7 +3844,7 @@ html {
     }
   
     .heading-6 {
-      font-size: 34px;
+      font-size: 54px;
     }
   
     .text-block-5 {
@@ -3875,7 +3882,7 @@ html {
       margin-bottom: 40px;
       padding-top: 10px;
       padding-bottom: 10px;
-      font-size: 14px;
+      font-size: 20px;
     }
   
     .navbar {
@@ -4050,7 +4057,7 @@ html {
       align-items: stretch;
       margin-top: 5px;
       padding: 10px 15px;
-      font-size: 14px;
+      font-size: 18px;
       display: flex;
       position: static;
     }
@@ -4129,7 +4136,7 @@ html {
   
     .heading-6 {
       font-family: 'Geomanist', Helvetica, sans-serif;
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 700;
     }
   
@@ -4199,9 +4206,9 @@ html {
     .image-11 {
       max-width: 80%;
       margin-left: 0;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
       padding-left: 5px;
+      margin-right: 0;
+      padding-right: 5px;
     }
   
     .heading-11 {
@@ -4257,10 +4264,10 @@ html {
   
   @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/brockmann/medium/brockmann-medium-webfont.woff2') format('woff2'),
-         url('fonts/brockmann/medium/brockmann-medium-webfont.woff') format('woff'),
-         url('fonts/brockmann/medium/brockmann-medium-webfont.otf') format('otf'),
-         url('fonts/brockmann/medium/brockmann-medium-webfont.ttf') format('ttf');
+    src: url('fonts/borna/medium/borna-medium-webfont.woff2') format('woff2'),
+         url('fonts/borna/medium/borna-medium-webfont.woff') format('woff'),
+         url('fonts/borna/medium/borna-medium-webfont.otf') format('otf'),
+         url('fonts/borna/medium/borna-medium-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
