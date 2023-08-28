@@ -3233,7 +3233,7 @@ html {
     /* background-color: #fff; */
     /* background-image: radial-gradient(circle, #1f1f59, #000), url("assets/background_large.jpeg"); */
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: center;
     justify-content: center;
     align-items: flex-start;
     padding-top: 50px;
@@ -3417,7 +3417,7 @@ html {
   .container-13 {
     max-width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     display: flex;
     padding-bottom: 20px;
