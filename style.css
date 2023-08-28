@@ -2487,7 +2487,7 @@ html {
     font-size: 20px;
     font-family: 'Geomanist', Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 26px;
   }
   
@@ -2792,6 +2792,7 @@ html {
   .text-block-3 {
     clear: none;
     position: static;
+    font-family: 'Geomanist', Helvetica, sans-serif;
   }
   
   .text-block-4 {
@@ -3363,8 +3364,8 @@ html {
   }
   
   .text-block-9 {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 18px;
   }
   
@@ -3386,6 +3387,7 @@ html {
   }
   
   .field-label-5 {
+    font-family: 'Geomanist', Helvetica, sans-serif;
     font-weight: 400;
   }
   
@@ -3415,6 +3417,7 @@ html {
     justify-content: center;
     align-items: flex-start;
     display: flex;
+    padding-bottom: 10px;
   }
   
   .div-block-7 {
@@ -3440,6 +3443,11 @@ html {
     padding: 10px 20px;
     transition: all .5s;
     box-shadow: 0 0 20px 15px rgba(0, 0, 0, .2);
+  }
+
+  .button-3:hover {
+    background-color: #1f1f59;
+    color: #fff;
   }
   
   @media screen and (max-width: 991px) {
@@ -4189,8 +4197,9 @@ html {
     }
   
     .image-11 {
-      max-width: 100%;
+      max-width: 80%;
       margin-left: 0;
+      margin-bottom: 10px;
       padding-bottom: 10px;
       padding-left: 5px;
     }
@@ -4202,8 +4211,8 @@ html {
   
     .accordion-header {
       justify-content: center;
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: 10px;
+      margin-right: 10px;
     }
   
     .accordion-panel {
@@ -4242,15 +4251,16 @@ html {
     .text-field-5 {
       color: #040b27;
       font-size: 12px;
+      font-family: 'Geomanist', Helvetica, sans-serif;
     }
   }
   
   @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/regular/geomanist-regular-webfont.woff2') format('woff2'),
-         url('fonts/regular/geomanist-regular-webfont.woff') format('woff'),
-         url('fonts/regular/geomanist-regular-webfont.otf') format('otf'),
-         url('fonts/regular/geomanist-regular-webfont.ttf') format('ttf');
+    src: url('fonts/brockmann/medium/brockmann-medium-webfont.woff2') format('woff2'),
+         url('fonts/brockmann/medium/brockmann-medium-webfont.woff') format('woff'),
+         url('fonts/brockmann/medium/brockmann-medium-webfont.otf') format('otf'),
+         url('fonts/brockmann/medium/brockmann-medium-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
