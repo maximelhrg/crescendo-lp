@@ -4267,10 +4267,10 @@ html {
   
   @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/rouna/bold/rouna-bold-webfont.woff2') format('woff2'),
-         url('fonts/rouna/bold/rouna-bold-webfont.woff') format('woff'),
-         url('fonts/rouna/bold/rouna-bold-webfont.otf') format('otf'),
-         url('fonts/rouna/bold/rouna-bold-webfont.ttf') format('ttf');
+    src: url('fonts/becky/regular/becky-regular-webfont.woff2') format('woff2'),
+         url('fonts/becky/regular/becky-regular-webfont.woff') format('woff'),
+         /* url('fonts/rouna/bold/rouna-bold-webfont.otf') format('otf'), */
+         url('fonts/becky/regular/becky-regular-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
