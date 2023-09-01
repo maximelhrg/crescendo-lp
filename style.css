@@ -4267,10 +4267,10 @@ html {
   
   @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/bariol/regular/bariol-regular-webfont.woff2') format('woff2'),
-         url('fonts/bariol/regular/bariol-regular-webfont.woff') format('woff'),
-         url('fonts/bariol/regular/bariol-regular-webfont.otf') format('otf'),
-         url('fonts/bariol/regular/bariol-regular-webfont.ttf') format('ttf');
+    src: url('fonts/geonanist/regular/geomanist-regular-webfont.woff2') format('woff2'),
+         url('fonts/geonanist/regular/geomanist-regular-webfont.woff') format('woff'),
+         url('fonts/geonanist/regular/geomanist-regular-webfont.otf') format('otf'),
+         url('fonts/geonanist/regular/geomanist-regular-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
