@@ -4268,11 +4268,11 @@ html {
   @font-face {
     font-family: 'Geomanist';
     src: 
-    /* url('fonts/radio/.woff2') format('woff2'), */
-         /* url('fonts/becky/regular/becky-regular-webfont.woff') format('woff'), */
+    url('fonts/becky/regular/becky-regular-webfont.woff2') format('woff2'),
+         url('fonts/becky/regular/becky-regular-webfont.woff') format('woff');
          /* url('fonts/rouna/bold/rouna-bold-webfont.otf') format('otf'), */
          /* url('fonts/radio/radiocanada_italic.ttf') format('ttf'), */
-         url('fonts/radio/radiocanada_regular.ttf') format('ttf');
+         /* url('fonts/radio/radiocanada_regular.ttf') format('ttf'); */
     font-weight: normal;
     font-style: normal;
 }
