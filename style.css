@@ -1,11 +1,12 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Figtree', sans-serif;
   }
   
   body {
     margin: 0;
+    font-family: 'Figtree', sans-serif;
   }
   
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -234,7 +235,7 @@ html {
     color: #333;
     background-color: #fff;
     margin: 0;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 14px;
     line-height: 20px;
   }
@@ -1062,7 +1063,7 @@ html {
   .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
     text-align: center;
     color: #999;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 15px;
     line-height: 12px;
     position: relative;
@@ -1462,7 +1463,7 @@ html {
     -webkit-tap-highlight-color: transparent;
     background: rgba(0, 0, 0, .9);
     outline: 0;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -2102,7 +2103,7 @@ html {
     background-color: rgba(0, 0, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
@@ -2119,7 +2120,7 @@ html {
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 23px;
     font-weight: 400;
     line-height: 36px;
@@ -2128,7 +2129,7 @@ html {
   h3 {
     text-transform: uppercase;
     margin: 0 0 20px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -2159,7 +2160,7 @@ html {
     cursor: default;
     margin-top: 0;
     margin-bottom: 5px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -2246,7 +2247,7 @@ html {
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     margin-left: 34px;
     padding: 0;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     transition: color .5s;
@@ -2266,7 +2267,7 @@ html {
     color: #fff;
     text-transform: none;
     margin: 10px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 100%;
@@ -2276,6 +2277,8 @@ html {
   
   .logo-img {
     float: left;
+    width: 50%;
+    height: auto;
     margin-top: 5px;
     position: relative;
     overflow: hidden;
@@ -2290,7 +2293,7 @@ html {
   .main-heading {
     color: #bedcff;
     text-transform: none;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 72px;
     font-weight: 600;
     line-height: 90%;
@@ -2411,7 +2414,7 @@ html {
   
   .role {
     margin-bottom: 16px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 17px;
     font-style: italic;
   }
@@ -2489,7 +2492,7 @@ html {
   .testimonial {
     margin-bottom: 22px;
     font-size: 18px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-style: italic;
     font-weight: lighter;
     line-height: 26px;
@@ -2615,7 +2618,7 @@ html {
     align-items: center;
     margin-top: 25px;
     padding-right: 50px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     display: block;
@@ -2676,7 +2679,7 @@ html {
   .heading {
     color: #fff;
     margin-top: 20px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 28px;
     font-weight: 400;
   }
@@ -2695,7 +2698,7 @@ html {
     color: #fff;
     margin-top: 10px;
     margin-bottom: 5px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 20px;
     font-weight: 400;
   }
@@ -2743,13 +2746,13 @@ html {
   }
   
   .paragraph, .paragraph-2, .paragraph-3 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 14px;
   }
   
   .paragraph-4 {
     color: #fff;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 18px;
     font-weight: 400;
   }
@@ -2768,7 +2771,7 @@ html {
     color: #fff;
     margin-top: 5px;
     margin-left: 10px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-weight: 600;
   }
   
@@ -2782,14 +2785,14 @@ html {
   .text-block {
     float: left;
     color: #160b31;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .text-block-2 {
     float: right;
     color: #fff;
     text-align: right;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
   }
@@ -2797,14 +2800,14 @@ html {
   .text-block-3 {
     clear: none;
     position: static;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .text-block-4 {
     color: #fff;
     margin-top: 60px;
     margin-bottom: 60px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 120%;
@@ -2865,22 +2868,24 @@ html {
   }
   
   .image-4 {
-    /* max-height: 80%; */
-    /* max-width: 9%; */
+    max-width: 30%;
+    height: auto;
     float: none;
-    /* margin-top: 20px; */
+    margin-top: 30px;
     display: inline-block;
     overflow: auto;
   }
   
   .container-5 {
     text-align: center;
+    align-items: center;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   
   .heading-5 {
     margin-bottom: 10px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 48px;
   }
   
@@ -2891,7 +2896,7 @@ html {
     border-radius: 6px;
     margin-left: 100px;
     margin-right: 100px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .text-field {
@@ -2918,7 +2923,7 @@ html {
     text-align: center;
     margin-top: 20px;
     color: #bedcff;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: normal;
@@ -2928,7 +2933,7 @@ html {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 20px;
     font-weight: lighter;
     line-height: normal;
@@ -2964,12 +2969,12 @@ html {
   }
   
   .text-block-6 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .text-block-7 {
     color: #252b42;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .back-home {
@@ -2977,7 +2982,7 @@ html {
     text-align: center;
     background-color: #fff;
     margin-bottom: 10px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     display: block;
@@ -2996,7 +3001,7 @@ html {
     color: #1f1f59;
     border-radius: 5px;
     margin-top: 20px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 24px;
   }
   
@@ -3010,7 +3015,7 @@ html {
     text-align: center;
     background-color: #fc6c4b;
     border-radius: 20px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 18px;
     padding: 15px 20px;
     font-weight: 1000;
@@ -3031,7 +3036,7 @@ html {
   
   .bold-text {
     color: #160b31;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 16px;
   }
   
@@ -3220,13 +3225,15 @@ html {
   .text-block-8 {
     float: right;
     padding-top: 20px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     position: relative;
   }
   
   .image-10 {
     float: left;
     position: relative;
+    max-width: 50%;
+    height: auto;
   }
   
   .section-4 {
@@ -3270,7 +3277,7 @@ html {
   .link-2 {
     color: rgba(255, 192, 1, .5);
     padding-top: 5px;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-size: 14px;
   }
   
@@ -3281,7 +3288,7 @@ html {
   }
   
   .list-item {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .list-item-3 {
@@ -3289,7 +3296,7 @@ html {
   }
   
   .list-item-4 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .list-item-5, .list-item-6 {
@@ -3302,7 +3309,7 @@ html {
   }
   
   .list-item-8 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .div-block-5 {
@@ -3313,7 +3320,7 @@ html {
   }
   
   .bold-text-2 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', H, sans-serif;
   }
   
   .text-span {
@@ -3375,7 +3382,7 @@ html {
   
   .paragraph-5 {
     color: #fff;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-style: normal;
     font-size: 18px;
     padding-top: 12px;
@@ -3385,18 +3392,18 @@ html {
   }
   
   .field-label-4 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-weight: 400;
   }
   
   .field-label-5 {
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
     font-weight: 400;
   }
   
   .text-field-4 {
     color: #040b27;
-    font-family: 'Geomanist', Helvetica, sans-serif;
+    font-family: 'Geomanist', Roboto, sans-serif;
   }
   
   .container-11 {
@@ -3460,7 +3467,7 @@ html {
     color: #fff;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 990px) {
     .button {
       float: none;
       overflow: hidden;
@@ -3601,7 +3608,7 @@ html {
     }
   
     .image-4 {
-      max-width: 10%;
+      max-width: 30%;
     }
   
     .form-block {
@@ -3625,7 +3632,7 @@ html {
     .menu-button-2 {
       color: #fff;
       padding: 18px;
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
     }
   
     .image-7 {
@@ -3637,7 +3644,8 @@ html {
     }
   
     .image-10 {
-      max-width: 50px;
+      width: fit-content;
+      height: fit-content;
     }
   
     .heading-11 {
@@ -3976,7 +3984,7 @@ html {
       padding-right: 5px;
       font-size: 16px;
       line-height: normal;
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
     }
   
     .from {
@@ -4009,7 +4017,7 @@ html {
       margin-top: 5px;
       margin-bottom: 5px;
       padding-right: 20px;
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
       position: absolute;
       top: 0%;
       bottom: auto;
@@ -4138,13 +4146,13 @@ html {
     }
   
     .heading-6 {
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
       font-size: 32px;
       font-weight: 700;
     }
   
     .text-block-5 {
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
       font-size: 14px;
       font-weight: 400;
     }
@@ -4154,7 +4162,7 @@ html {
     }
   
     .back-home, .button-2 {
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
       font-size: 14px;
     }
   
@@ -4243,13 +4251,13 @@ html {
     }
   
     .field-label-4 {
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
       font-size: 12px;
     }
   
     .text-field-4 {
       color: #040b27;
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
       font-size: 12px;
     }
   
@@ -4261,20 +4269,20 @@ html {
     .text-field-5 {
       color: #040b27;
       font-size: 12px;
-      font-family: 'Geomanist', Helvetica, sans-serif;
+      font-family: 'Geomanist', Roboto, sans-serif;
     }
   }
   
-  @font-face {
+  /* @font-face {
     font-family: 'Geomanist';
     src: 
-        url('fonts/becky/regular/becky-regular-webfont.eot') format('eot'),
+        /* url('fonts/becky/regular/becky-regular-webfont.eot') format('eot'),
         url('fonts/becky/regular/becky-regular-webfont.ttf') format('ttf'),
         url('fonts/becky/regular/becky-regular-webfont.woff2') format('woff2'),
-        url('fonts/becky/regular/becky-regular-webfont.woff') format('woff');
+        url('fonts/becky/regular/becky-regular-webfont.woff') format('woff'); */
          /* url('fonts/rouna/bold/rouna-bold-webfont.otf') format('otf'), */
          /* url('fonts/radio/radiocanada_italic.ttf') format('ttf'), */
-         /* url('fonts/radio/radiocanada_regular.ttf') format('ttf'); */
-    font-weight: normal;
-    font-style: normal;
-}
+         /* url('fonts/figtree/Figtree-Regular.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal; */
+/* } */
