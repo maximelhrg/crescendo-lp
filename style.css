@@ -3549,6 +3549,7 @@ html {
   
     .button-header {
       display: block;
+      float: right;
     }
   
     .container-3 {
@@ -3783,6 +3784,7 @@ html {
       font-size: 18px;
       display: block;
       white-space: nowrap;
+      float: right;
     }
   
     .paragraph-4 {
