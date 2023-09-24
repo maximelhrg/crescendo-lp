@@ -262,14 +262,10 @@ html {
     display: inline-block;
   }
   
-  .w-clearfix:before, .w-clearfix:after {
+  .w-clearfix:before {
     content: " ";
     grid-area: 1 / 1 / 2 / 2;
     display: table;
-  }
-  
-  .w-clearfix:after {
-    clear: both;
   }
   
   .w-hidden {
@@ -716,14 +712,10 @@ html {
     margin-right: auto;
   }
   
-  .w-container:before, .w-container:after {
+  .w-container:before {
     content: " ";
     grid-area: 1 / 1 / 2 / 2;
     display: table;
-  }
-  
-  .w-container:after {
-    clear: both;
   }
   
   .w-container .w-row {
@@ -950,9 +942,9 @@ html {
   }
   
   @media screen and (max-width: 479px) {
-    /* .w-container {
-      max-width: 450px;
-    } */
+    .w-container {
+      max-width: 420px;
+    }
   
     .w-hidden-main, .w-hidden-medium, .w-hidden-small {
       display: inherit !important;
@@ -1854,15 +1846,15 @@ html {
     position: relative;
   }
   
-  .w-nav:before, .w-nav:after {
+  .w-nav:before {
     content: " ";
     grid-area: 1 / 1 / 2 / 2;
     display: table;
   }
   
-  .w-nav:after {
+  /* .w-nav:after {
     clear: both;
-  }
+  } */
   
   .w-nav-brand {
     float: left;
@@ -2711,7 +2703,7 @@ html {
     align-items: baseline;
     margin-top: 15px;
     margin-bottom: 0;
-    padding: 15px 20px;
+    padding: 15px 15px;
     transition: background-color .5s;
     font-size: 18px;
   }
@@ -2725,10 +2717,10 @@ html {
     color: #7ec4bd;
     border-width: 1px 1px 2px;
     border-color: #7ec4bd;
-    margin-top: 23px;
-    margin-bottom: 24px;
-    padding-left: 54px;
-    padding-right: 54px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    /* padding-left: 54px;
+    padding-right: 54px; */
   }
   
   .button-header.form:hover {
@@ -3284,8 +3276,8 @@ html {
   .div-block-5 {
     float: left;
     align-items: center;
-    /* display: flex; */
-    /* position: relative; */
+    display: flex;
+    position: relative;
   }
   
   .text-span {
@@ -3513,8 +3505,15 @@ html {
     }
   
     .container {
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 100%;
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+      flex-direction: row;
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-columns: 1fr;
+      justify-content: flex-end;
+      align-items: center;
     }
   
     .icon {
@@ -3754,12 +3753,15 @@ html {
     }
   
     .container {
-      justify-content: space-between;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      flex-direction: column; /* Change to a vertical layout */
-      align-items: center; /* Center elements vertically */
+      max-width: 100%;
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+      flex-direction: row;
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-columns: 1fr;
+      justify-content: flex-end;
+      align-items: center;
     }
   
     .image {
@@ -3777,9 +3779,10 @@ html {
       align-items: flex-start;
       margin-top: 15px;
       margin-bottom: 0;
-      padding: 10px 20px;
+      padding: 15px 15px;
       font-size: 18px;
       display: block;
+      white-space: nowrap;
     }
   
     .paragraph-4 {
@@ -3995,11 +3998,15 @@ html {
     }
   
     .container {
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 0;
-      flex-direction: column; /* Change to a vertical layout */
-      align-items: center; /* Center elements vertically */
+      max-width: 100%;
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+      flex-direction: row;
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-columns: 1fr;
+      justify-content: flex-end;
+      align-items: center;
     }
   
     .body {
@@ -4038,10 +4045,11 @@ html {
       align-items: stretch;
       margin-top: 15px;
       margin-bottom: 0;
-      padding: 10px 20px;
-      font-size: 18px;
+      padding: 15px 15px;
+      font-size: 14px;
       display: flex;
       position: static;
+      white-space: nowrap;
     }
   
     .paragraph-4 {
