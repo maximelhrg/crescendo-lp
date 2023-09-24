@@ -3282,9 +3282,9 @@ html {
   }
   
   .div-block-5 {
-    /* float: left; */
+    float: left;
     align-items: center;
-    display: flex;
+    /* display: flex; */
     /* position: relative; */
   }
   
@@ -3775,7 +3775,10 @@ html {
   
     .button-header {
       align-items: flex-start;
-      margin-top: 0;
+      margin-top: 15px;
+      margin-bottom: 0;
+      padding: 10px 20px;
+      font-size: 18px;
       display: block;
     }
   
@@ -4031,10 +4034,11 @@ html {
     .button-header {
       float: right;
       clear: right;
-      /* flex-wrap: nowrap; */
+      flex-wrap: nowrap;
       align-items: stretch;
-      margin-top: 5px;
-      padding: 10px 15px;
+      margin-top: 15px;
+      margin-bottom: 0;
+      padding: 10px 20px;
       font-size: 18px;
       display: flex;
       position: static;
