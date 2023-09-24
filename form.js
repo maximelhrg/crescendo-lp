@@ -6,20 +6,19 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbwtmxSYIL7T5OYbODNiSu_7w-HwcMKlxUVpKDVkeD4foqLVBcIbac79f-FvUGXzUR8Y/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbwtYhfgB4ihbBfvUxe_HYtIQPzYnBycnmVtg03BgPEmFeCUK43B90USWdxaxFbYUWG9/exec', {
             method: 'POST',
             mode: 'cors', // Add this line
-            body: formData,
-        //     body: JSON.stringify({
-        //         name: formData.get('name'),
-        //         email: formData.get('email'),
-        //         social: formData.get('social'),
-        //         comments: formData.get('comments'),
+            body: JSON.stringify({
+                name: formData.get('name'),
+                email: formData.get('email'),
+                social: formData.get('social'),
+                comments: formData.get('comments'),
             
-        //   }),
-          headers: {
-            'Content-Type': 'application/json'
-          }
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
         })
         .then(response => {
           if (response.ok) {
