@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbwtYhfgB4ihbBfvUxe_HYtIQPzYnBycnmVtg03BgPEmFeCUK43B90USWdxaxFbYUWG9/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbzx7uU9voRqQEcwmzv9vthuAJq-kBp26LbAqsxPJObJuMdFIYaqv6OLG4alEbk19SzT/exec', {
             method: 'POST',
             mode: 'cors', // Add this line
             body: JSON.stringify({
@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
             
             }),
             headers: {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods": "POST",
+                // "Access-Control-Allow-Origin": "*",
+                // "Access-Control-Allow-Methods": "POST",
                 "Access-Control-Allow-Headers": "Content-Type",
                 'Content-Type': 'application/json'
             }
