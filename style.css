@@ -2272,12 +2272,12 @@ html {
   }
   
   .logo-img {
-    float: left;
+    /* float: left; */
     width: 50%;
     height: auto;
     margin-top: 5px;
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
   }
   
   .brand-block {
@@ -2770,7 +2770,6 @@ html {
     align-items: center;
     padding-bottom: 30px;
     display: flex;
-    flex-direction: column; /* Change to a vertical layout */
   }
   
   .text-block {
@@ -3244,8 +3243,8 @@ html {
   }
   
   .div-block-4 {
-    grid-column-gap: 5%;
-    grid-row-gap: 5%;
+    /* grid-column-gap: 5%; */
+    /* grid-row-gap: 5%; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3877,9 +3876,9 @@ html {
     .logo-img {
       width: 50%;
       height: auto;
-      float: left;
+      /* float: left;
       clear: none;
-      position: relative;
+      position: relative; */
     }
   
     .main-heading {
