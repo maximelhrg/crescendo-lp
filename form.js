@@ -6,13 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbz34SmZmzQDiu2FKEx9bOB2te0kGiTIC9f6sicV2zBWbvGooh2EA759qwE5ltI2aNbJ/exec', {
-          method: 'POST',
-          body: JSON.stringify({
-            name: formData.get('Name'),
-            email: formData.get('Email'),
-            social: formData.get('Social'),
-            comments: formData.get('Comments'),
+        fetch('https://script.google.com/macros/s/AKfycbyMm1cxcOy6ZS2XeBViym3EX0ywaiVpa7PH6soUUvJPzT6BKba8weOsqbk_FBlP11LP/exec', {
+            method: 'POST',
+            mode: 'cors', // Add this line
+            body: JSON.stringify({
+                name: formData.get('Name'),
+                email: formData.get('Email'),
+                social: formData.get('Social'),
+                comments: formData.get('Comments'),
             
           }),
           headers: {
