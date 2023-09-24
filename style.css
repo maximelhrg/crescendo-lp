@@ -950,9 +950,9 @@ html {
   }
   
   @media screen and (max-width: 479px) {
-    .w-container {
-      max-width: 380px;
-    }
+    /* .w-container {
+      max-width: 450px;
+    } */
   
     .w-hidden-main, .w-hidden-medium, .w-hidden-small {
       display: inherit !important;
@@ -2770,6 +2770,7 @@ html {
     align-items: center;
     padding-bottom: 30px;
     display: flex;
+    flex-direction: column; /* Change to a vertical layout */
   }
   
   .text-block {
@@ -3758,6 +3759,8 @@ html {
       margin-left: auto;
       margin-right: auto;
       display: block;
+      flex-direction: column; /* Change to a vertical layout */
+      align-items: center; /* Center elements vertically */
     }
   
     .image {
@@ -3993,6 +3996,8 @@ html {
       margin-left: auto;
       margin-right: auto;
       padding-bottom: 0;
+      flex-direction: column; /* Change to a vertical layout */
+      align-items: center; /* Center elements vertically */
     }
   
     .body {
