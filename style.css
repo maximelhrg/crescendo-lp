@@ -3470,6 +3470,11 @@ html {
       width: 50%;
       height: auto;
     }
+
+    .logo-img-top {
+      width: 50%;
+      height: auto;
+    }
   
     .main-heading {
       font-size: 68px;
@@ -3655,6 +3660,11 @@ html {
     .logo-img {
       width: 50%;
       height: auto
+    }
+
+    .logo-img-top {
+      width: 50%;
+      height: auto;
     }
   
     .main-heading {
@@ -3903,9 +3913,11 @@ html {
     .logo-img {
       width: 50%;
       height: auto;
-      /* float: left;
-      clear: none;
-      position: relative; */
+    }
+
+    .logo-img-top {
+      width: 50%;
+      height: auto;
     }
   
     .main-heading {
