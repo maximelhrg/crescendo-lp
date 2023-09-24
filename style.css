@@ -3197,9 +3197,18 @@ html {
   }
   
   .text-block-8 {
-    float: right;
-    padding-top: 20px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    /* padding-top: 20px; */
     position: relative;
+  }
+
+  .text-block-11 {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin-right: 30px;
   }
   
   .image-10 {
@@ -3273,10 +3282,10 @@ html {
   }
   
   .div-block-5 {
-    float: left;
+    /* float: left; */
     align-items: center;
     display: flex;
-    position: relative;
+    /* position: relative; */
   }
   
   .text-span {
@@ -4018,7 +4027,7 @@ html {
     .button-header {
       float: right;
       clear: right;
-      flex-wrap: nowrap;
+      /* flex-wrap: nowrap; */
       align-items: stretch;
       margin-top: 5px;
       padding: 10px 15px;
@@ -4157,6 +4166,12 @@ html {
     .text-block-8 {
       margin-bottom: 0;
       position: relative;
+    }
+
+    .text-block-11 {
+      margin-bottom: 0;
+      position: relative;
+      margin-right: 30px;
     }
   
     .image-10 {
