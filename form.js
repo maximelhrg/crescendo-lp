@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbytMiII5eOQ9YdXg-BY5U9dWATh_1i0PCvhAxxTx9sQa-7ZMNxx9hYjRkTikLGhauwR/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbzTp7CLkM3eZkoU_O5ktAGHAj0ope8CMQIZEJtYwkJj4Gq-zAgRNHNZkSw8164yaxmJ/exec', {
             method: 'POST',
             mode: 'cors',
             body: JSON.stringify({
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             }),
             headers: {
-                "Content-Type": "text/plain;charset=utf-8",
+                "Content-Type": "application/json",
             }
         })
         .then(response => {
