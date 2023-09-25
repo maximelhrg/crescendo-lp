@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         fetch('https://script.google.com/macros/s/AKfycbzx7uU9voRqQEcwmzv9vthuAJq-kBp26LbAqsxPJObJuMdFIYaqv6OLG4alEbk19SzT/exec', {
             method: 'POST',
-            mode: 'cors', // Add this line
+            mode: 'no-cors', // Add this line
             body: JSON.stringify({
                 name: formData.get('name'),
                 email: formData.get('email'),
@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
             
             }),
             headers: {
-                // "Access-Control-Allow-Origin": "*",
-                // "Access-Control-Allow-Methods": "POST",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "POST",
                 "Access-Control-Allow-Headers": "Content-Type",
                 'Content-Type': 'application/json'
             }
