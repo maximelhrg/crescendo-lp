@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             }),
             headers: {
-                "Content-Type": "application/json",
+                "Content-Type": "text/plain;charset=utf-8",
             }
         })
         .then(response => {
