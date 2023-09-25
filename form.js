@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbzx7uU9voRqQEcwmzv9vthuAJq-kBp26LbAqsxPJObJuMdFIYaqv6OLG4alEbk19SzT/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbytMiII5eOQ9YdXg-BY5U9dWATh_1i0PCvhAxxTx9sQa-7ZMNxx9hYjRkTikLGhauwR/exec', {
             method: 'POST',
-            mode: 'no-cors', // Add this line
+            mode: 'cors',
             body: JSON.stringify({
                 name: formData.get('name'),
                 email: formData.get('email'),
@@ -17,10 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             }),
             headers: {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods": "POST",
-                "Access-Control-Allow-Headers": "Content-Type",
-                'Content-Type': 'application/json'
+                "Content-Type": "text/plain;charset=utf-8",
             }
         })
         .then(response => {
