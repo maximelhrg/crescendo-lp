@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("wf-form-");
+    const successSection = document.getElementById("success-section");
+    const failureSection = document.getElementById("failure-section");
 
     form.addEventListener("submit", function(event) {
         event.preventDefault();
@@ -22,14 +24,17 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(response => {
           if (response.ok) {
-            alert('Form submitted successfully!');
+            successSection.style.display = "block";
+            failureSection.style.display = "none";
           } else {
-            alert('Form submission failed. Please try again later.');
+            successSection.style.display = "none";
+            failureSection.style.display = "block";
           }
         })
         .catch(error => {
           console.error('Error:', error);
-          alert('An error occurred. Please try again later.');
+          successSection.style.display = "none";
+        failureSection.style.display = "block";
         });
     
         form.reset();
