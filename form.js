@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbypoio8TwK7ushuY3ayWOY_kdcHeUv6KjC6VwkzVzKzScnGGZj8xPPE8Ao0brlu4XCO/exec', {
+        fetch('https://script.google.com/macros/s/AKfycby2baXwlWPJLxfXoPtZI8yPBMSQ06PmUdLK7fqssy3tL9QD0ahqNg1SPIo37_C9YHf2/exec', {
             method: 'POST',
             mode: 'cors',
             body: JSON.stringify({
@@ -24,9 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(response => {
           if (response.ok) {
+            form.style.display = "none";
             successSection.style.display = "block";
             failureSection.style.display = "none";
           } else {
+            form.style.display = "none";
             successSection.style.display = "none";
             failureSection.style.display = "block";
           }

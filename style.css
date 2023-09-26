@@ -497,13 +497,13 @@ html {
   
   .w-form-done {
     text-align: center;
-    background-color: #ddd;
+    background-color: rgba(0, 0, 0, .0);
     padding: 20px;
     display: none;
   }
   
   .w-form-fail {
-    background-color: #ffdede;
+    background-color: rgba(0, 0, 0, .0);
     margin-top: 10px;
     padding: 10px;
     display: none;
@@ -2904,6 +2904,7 @@ html {
     margin-right: 150px;
     padding-bottom: 20px;
     position: relative;
+    background-color: rgba(0, 0, 0, .0);
   }
   
   .heading-6 {
@@ -2955,6 +2956,11 @@ html {
   }
   
   .text-block-7 {
+    color: #252b42;
+  }
+
+  .text-block-12 {
+    background-color: rgba(0, 0, 0, 0);
     color: #252b42;
   }
   
@@ -3595,6 +3601,7 @@ html {
     .form-block {
       margin-left: 100px;
       margin-right: 100px;
+      background-color: rgba(0, 0, 0, .0);
     }
   
     .text-block-5 {
@@ -3855,6 +3862,7 @@ html {
     .form-block {
       margin-left: 60px;
       margin-right: 60px;
+      background-color: rgba(0, 0, 0, .0);
     }
   
     .heading-6 {
@@ -4155,6 +4163,7 @@ html {
     .form-block {
       margin-left: 20px;
       margin-right: 20px;
+      background-color: rgba(0, 0, 0, .0);
     }
   
     .heading-6 {
