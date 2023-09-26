@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         const formData = new FormData(form);
     
-        fetch('https://script.google.com/macros/s/AKfycbzTp7CLkM3eZkoU_O5ktAGHAj0ope8CMQIZEJtYwkJj4Gq-zAgRNHNZkSw8164yaxmJ/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbypoio8TwK7ushuY3ayWOY_kdcHeUv6KjC6VwkzVzKzScnGGZj8xPPE8Ao0brlu4XCO/exec', {
             method: 'POST',
             mode: 'cors',
             body: JSON.stringify({
