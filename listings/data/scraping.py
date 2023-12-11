@@ -14,7 +14,7 @@ SLEEP_DURATION = 60 # Adjust as needed
 def authenticate_google_sheets(sheet_name):
     # Set up Google Sheets API credentials
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    credentials = ServiceAccountCredentials.from_json_keyfile_name("./crescendo-credentials.json", scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name("./credentials.json", scope)
     client = gspread.authorize(credentials)
 
     # Open the Google Spreadsheet by title
