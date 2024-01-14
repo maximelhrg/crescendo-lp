@@ -68,9 +68,15 @@ def scrape_job_listings(sheet, base_url, add_fields, total_pages):
                 # Fetch additional information from the linked page
                 additional_info = fetch_additional_info(link, add_fields)
 
-                # Insert the job data as a new row
+                # Insert the job data as a new row if deadline has not been met (or is not specified)
                 new_row = [link, title, deadline] + additional_info
-                sheet.append_row(new_row)#, index=2)
+                try: 
+                    deadline_passed = datetime.strptime(deadline, "%m/%d/%Y") <= datetime.now()
+                    if deadline_passed:
+                        pass
+                    else: sheet.append_row(new_row)#, index=2)
+                except ValueError:
+                    sheet.append_row(new_row)#, index=2)
 
                 row_counter += 1
 
@@ -91,12 +97,12 @@ def fetch_additional_info(link, add_fields):
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        def get_class(element):
-            return f"field field-name-field-{element} field-type-taxonomy-term-reference field-label-inline clearfix"
+        def get_class(element, reference, field_label):
+            return f"field field-name-field-{element} field-type-{reference} {field_label}"
         
         additional_info = []
         for t in add_fields:
-            base_class = get_class(t)
+            base_class = get_class(t, "taxonomy-term-reference", "field-label-inline clearfix")
         
             try:
                 add_field = soup.find('div', class_=base_class)
@@ -110,6 +116,18 @@ def fetch_additional_info(link, add_fields):
                 keys = []
             
             additional_info.append(" ".join(keys))
+        
+        try:
+            desc_class = get_class("description", "text-long", "field-label-hidden")
+            desc_range = soup.find('div', class_=desc_class)
+            desc_fields = desc_range.find_all('p')
+            description = [d.text for d in desc_fields]
+            # description = description[0:1]  # Limit description to first items?
+        
+        except (AttributeError, TypeError):
+            description = []
+
+        additional_info.append(" ".join(description))
 
         return additional_info
     else:
@@ -165,6 +183,6 @@ if __name__ == "__main__":
         'tags-news'
         ]
 
-    google_sheet = authenticate_google_sheets("ArtJobs Listings")
+    google_sheet = authenticate_google_sheets("Listings")
     base_url = "https://www.artjobs.com/open-calls/us"
     run_daily_scraping(google_sheet, base_url, add_fields)
