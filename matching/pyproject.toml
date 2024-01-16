@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "matching"
+version = "0.1.0"
+description = "Job-artist matching capability."
+authors = [ "Laurent Thanwerdas <laurent.thanwerdas@gmail.com>"] # add your address
+
+[tool.poetry.dependencies]
+python = ">=3.9.11,<3.11"
+numpy = "^1.26.3"
+pydantic = "^2.5.3"
+pandas = "^2.1.4"
+gensim = "^4.3.2"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.13.2"
+black = "^23.12.1"
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
