@@ -106,7 +106,7 @@ class ListingsScraper(Scraper):
                         "title": title,
                         "deadline": deadline,
                         "description": description,
-                        "keywords": keywords
+                        "keywords": keywords,
                     }
                     # Check if entry already exists in Firestore
                     if not self.entry_exists(job_data):
@@ -123,6 +123,7 @@ class ListingsScraper(Scraper):
             # Introduce a random delay between pages
             delay_seconds = random.uniform(1, 3)
             time.sleep(delay_seconds)
+            print(f"Waiting {delay_seconds} seconds before fetching new page")
 
         # Remove expired entries from Firestore
         self.remove_expired_entries()
