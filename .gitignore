@@ -1,2 +1,5 @@
 .DS_Store
 credentials.json
+
+scraping/__pycache__
+matching/__pycache__
